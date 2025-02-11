@@ -5,21 +5,45 @@
     <title>무악극장</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <style>
+        #grid {
+        display: grid;
+        grid-template-columns:1fr 2fr;
+            }
+        ol{
+            padding-left:50px;
+        }
+        #article{
+            padding-left:-30px;
+        }
+    </style>
 
 </head>
 
 
 
 <body>
-    <h1>무악극장에 오신 것을 환영합니다!</h1>
-    <ol>
-        <li><strong><a href="24.html" class="saw">무악극장 소개</strong></a></li>
-        
-        <li><strong><a href="https://docs.google.com/spreadsheets/d/19i0lkjK9N2Dk4fiz-oq8KGphrX-FuR822xdYSgq7jic/edit?usp=sharing" class="saw" target="_blank">무악극장 예약현황</strong></a></li>
+    <h1><a href="index.html">무악극장에 오신 것을 환영합니다!</h1></a>
+    <div id="grid">
+        <div id="list">
+        <ol>
+            <li><strong><a href="24.html" class="saw">무악극장 소개</strong></a></li>
+            
+            <li><strong><a href="https://docs.google.com/spreadsheets/d/19i0lkjK9N2Dk4fiz-oq8KGphrX-FuR822xdYSgq7jic/edit?usp=sharing" class="saw" target="_blank">무악극장 예약현황</strong></a></li>
 
-        <li><strong><a href="grid.html" class="saw">무악극장 예약방법</strong></a></li>
-        <li><strong><a href="index.html" class="saw" id="active">처음으로(Home)</strong></a></li>
-    </ol>
+            <li><strong><a href="grid.html" class="saw">무악극장 예약방법</strong></a></li>
+        </ol>
+        </div>
+        
+        <div id="article">
+            <h2>공지사항</h2>
+            <p>
+            <li>2025년 5월 일반예약은 <strong>2025년 4월 1일 00:00부터 가능합니다.</strong>
+            </li>
+            <li>대관자의 정보는 당사자의 승인 없이는 공개할 수 없습니다.</li>
+            </p>
+        </div>
+    </div>
     
 </body>
 

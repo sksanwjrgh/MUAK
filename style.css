@@ -6,7 +6,7 @@ a{
 h1{
     font-size:35px;
     text-align: center;
-    border-bottom:1px solid gray;
+    border-bottom:5px solid black;
     margin:0;
     padding:20px;
 }
@@ -17,11 +17,10 @@ h1{
 .saw{
     color:gray;
 }
-ol{
-    border-right:1px solid gray;
-    width:200px;
+#list{
+    border-right:5px solid black;
+    width:150px;
     margin:0;
-    padding:20px;
 }
 body{
     margin: 0px;

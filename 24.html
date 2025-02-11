@@ -7,6 +7,25 @@
     <title>무악극장</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    
+    <style>
+    #grid{
+        display:grid;
+        grid-template-columns:180px 1fr;
+
+    }
+    #list{
+        width: 100%;
+        height:100%;
+    }
+    #article{
+        margin:10px;
+        margin-top:0;
+        width:100%;
+    }
+
+    </style>
+    
 
 </head>
 
@@ -14,23 +33,28 @@
 
 <body>
     <h1>무악극장에 오신 것을 환영합니다</h1>
-    <ol>
-        <li><strong><a href="24.html" class="saw" id="active">무악극장 소개</strong></a></li>
-        <li><strong><a href="https://docs.google.com/spreadsheets/d/19i0lkjK9N2Dk4fiz-oq8KGphrX-FuR822xdYSgq7jic/edit?usp=sharing"class="saw" target="_blank">무악극장 예약현황</strong></u></a></li>
-        <li><strong><a href="grid.html" class="saw">무악극장 예약방법</strong></a></li>
-        <li><strong><a href="index.html" class="saw">처음으로(Home)</strong></a></li>
-    </ol>
     
-    <h3>무악극장이란?</h3>
-    <p style="margin: top 100px;">무악극장은 연희극예술연구회가가 관리하는 <a href="https://www.yonsei.ac.kr/"target="_blank" title="html5specification">연세대학교</a>의 극장이다.
-    </p>
+    <div id= "grid">
+        <div id ="list">
+            <ol>
+                <li><strong><a href="24.html" class="saw" id="active">무악극장 소개</strong></a></li>
+                <li><strong><a href="https://docs.google.com/spreadsheets/d/19i0lkjK9N2Dk4fiz-oq8KGphrX-FuR822xdYSgq7jic/edit?usp=sharing"class="saw" target="_blank">무악극장 예약현황</strong></u></a></li>
+                <li><strong><a href="grid.html" class="saw">무악극장 예약방법</strong></a></li>
+            </ol>
+        </div>
         
-    <p><h3>연락처</h3>
-    <li>010-xxxx-xxxx xxx (총연회장)</li>
-    <li>010-xxxx-xxxx xxx (무악관리자)</li>
-    </p>
-    <img src="" width="50%">    
-      
+        <div id="article">
+            <h3>무악극장이란?</h3>
+            <p style="margin: top 100px;">무악극장은 연희극예술연구회가가 관리하는 <a href="https://www.yonsei.ac.kr/"target="_blank" title="html5specification">연세대학교</a>의 극장이다.
+            </p>
+                
+            <p><h3>연락처</h3>
+            <li>010-xxxx-xxxx xxx (총연회장)</li>
+            <li>010-xxxx-xxxx xxx (무악관리자)</li>
+            </p>
+            <img src="" width="50%">
+        </div>    
+    </div>
     
 </body>
 
