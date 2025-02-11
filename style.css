@@ -17,3 +17,12 @@ h1{
 .saw{
     color:gray;
 }
+ol{
+    border-right:1px solid gray;
+    width:200px;
+    margin:0;
+    padding:20px;
+}
+body{
+    margin: 0px;
+}
